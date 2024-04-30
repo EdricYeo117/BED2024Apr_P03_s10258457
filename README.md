@@ -1,11 +1,11 @@
-# Back End Developemnt Repositry for Practicals
+# Back End Development Repository for Practicals
 
-This is a repositry dedicated to storing practicals for Back End Development Module
+This is a repository dedicated to storing practicals for the Back End Development Module.
 
 ## Done By
 Yeo Jin Rong IT03 S10258457C
 
 ### Practicals Complete:
-Week 01 ✔
-Week 02 ✔
-Week 03 ✔
+Week 01 ✔<br>
+Week 02 ✔<br>
+Week 03 ✔<br>
