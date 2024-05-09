@@ -5,11 +5,12 @@ const bodyParser = require("body-parser");
 const app = express();
 const port = 3000;
 
-let books = [
-    { id: 1, title: 'The Lord of the Rings', author: 'J.R.R. Tolkien' },
-    { id: 2, title: 'Pride and Prejudice', author: 'Jane Austen' },
- ];
-
+// Include body-parser middleware to handle JSON data
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true })); // For form data handling
+app.get("/books", booksController.getAllBooks);
+app.get("/books/:id", booksController.getBookById);
+app.post("/books", validateBook, booksController.createBook);
 // parse incoming JSON data in requests
 app.use(express.json())
 // Configure body-parser to handle URL-encoded form data
