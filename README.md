@@ -6,6 +6,5 @@ This is a repository dedicated to storing practicals for the Back End Developmen
 Yeo Jin Rong IT03 S10258457C
 
 ### Practicals Complete:
-Week 01 ✔<br>
-Week 02 ✔<br>
-Week 03 ✔<br>
+All Practicals Completed ✔<br>
+
